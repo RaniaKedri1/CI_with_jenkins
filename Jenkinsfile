@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@gitlab.com/project.git', credentialsId: 'Gitlab_ssh'
+                git branch: 'main', url: 'git@github.com:RaniaKedri1/CI_with_jenkins.git', credentialsId: 'Github_ssh'
             }
         }
 
